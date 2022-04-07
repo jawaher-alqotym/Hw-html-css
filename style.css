@@ -1,0 +1,94 @@
+
+  * {
+     
+        box-sizing: border-box;
+        
+      
+      }
+  
+ html { scroll-behavior: smooth;
+   
+  }
+
+h3 {font-style: italic;}
+
+img {margin: 2em 0em 0em 2em;}
+
+button {
+    margin-bottom: 1em;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+        }
+
+hr 
+     {border-top: none;
+      border-bottom: 0.25em dotted rgb(110, 110, 110);
+      width: 8em;
+      margin-top:1em ;
+      margin-bottom:1em;}
+
+table, th, td {
+        table-layout: fixed;
+        border:0.09em solid gray;
+      }
+  
+ body { 
+         font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+         background: linear-gradient( #9198e5, #e66465);
+         background-repeat: no-repeat;
+         margin: 0;
+         padding: 0em;
+  
+       }
+.class1 {position: absolute;
+         left: 15em;
+         top: 0em;
+         max-width:40%;}
+
+.class2 {position: relative;}
+
+.class3 {
+         margin: 1em;}
+
+.class4{ 
+        margin: 0em;
+        padding: 0em;
+        background-image: url('background-image.png');}
+
+.button{  margin-bottom: 1em;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;}
+
+    input[type=text] {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+    label {   
+        font-size: 0.9em;
+        font-weight: bold;}
+
+    .inputMessge {height: 10em;}
+  
+  
+       
+
